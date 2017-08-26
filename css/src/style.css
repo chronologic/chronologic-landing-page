@@ -5811,6 +5811,14 @@ Our Team
     background-image: url(../img/wired-investors.jpg)
 }
 
+#our-team .justin-jovanovic:before {
+    background-image: url(../img/justin-jovanovic-tint.jpg)
+}
+
+#our-team .justin-jovanovic:after {
+    background-image: url(../img/justin-jovanovic.jpg)
+}
+
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
