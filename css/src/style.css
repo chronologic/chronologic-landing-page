@@ -5819,6 +5819,14 @@ Our Team
     background-image: url(../img/justin-jovanovic.jpg)
 }
 
+#our-team .thiago-oliveira:before {
+    background-image: url(../img/thiago-oliveira-tint.jpg)
+}
+
+#our-team .thiago-oliveira:after {
+    background-image: url(../img/thiago-oliveira.jpg)
+}
+
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
