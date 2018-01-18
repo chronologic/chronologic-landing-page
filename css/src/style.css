@@ -462,7 +462,7 @@ Owl Carousel 2.2.1
 .owl-carousel {
     display: none;
     width: 100%;
-    -webkit-tap-highlight-color: transparent; 
+    -webkit-tap-highlight-color: transparent;
     position: relative;
     z-index: 1;
 }
@@ -933,62 +933,62 @@ main > .block-animation span:nth-child(20) {
 
 /* Our Team Section */
 
-#our-team .block-animation span:nth-child(1) {
+#team-and-advisors .block-animation span:nth-child(1) {
     -webkit-animation-duration: 15s;
             animation-duration: 15s;
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
 }
 
-#our-team .block-animation span:nth-child(2) {
+#team-and-advisors .block-animation span:nth-child(2) {
     -webkit-animation-duration: 19s;
             animation-duration: 19s;
 }
 
-#our-team .block-animation span:nth-child(3) {
+#team-and-advisors .block-animation span:nth-child(3) {
     -webkit-animation-duration: 12s;
             animation-duration: 12s;
     -webkit-animation-delay: 3s;
             animation-delay: 2s;
 }
 
-#our-team .block-animation span:nth-child(4) {
+#team-and-advisors .block-animation span:nth-child(4) {
     -webkit-animation-duration: 15s;
             animation-duration: 15s;
     -webkit-animation-delay: 8s;
             animation-delay: 8s;
 }
 
-#our-team .block-animation span:nth-child(5) {
+#team-and-advisors .block-animation span:nth-child(5) {
     -webkit-animation-duration: 12s;
             animation-duration: 12s;
 }
 
-#our-team .block-animation span:nth-child(6) {
+#team-and-advisors .block-animation span:nth-child(6) {
     -webkit-animation-duration: 18s;
             animation-duration: 18s;
 }
 
-#our-team .block-animation span:nth-child(7) {
+#team-and-advisors .block-animation span:nth-child(7) {
     -webkit-animation-duration: 12s;
             animation-duration: 12s;
     -webkit-animation-delay: 8s;
             animation-delay: 8s;
 }
 
-#our-team .block-animation span:nth-child(8) {
+#team-and-advisors .block-animation span:nth-child(8) {
     -webkit-animation-duration: 13s;
             animation-duration: 13s;
 }
 
-#our-team .block-animation span:nth-child(9) {
+#team-and-advisors .block-animation span:nth-child(9) {
     -webkit-animation-duration: 16s;
             animation-duration: 16s;
     -webkit-animation-delay: 7s;
             animation-delay: 7s;
 }
 
-#our-team .block-animation span:nth-child(10) {
+#team-and-advisors .block-animation span:nth-child(10) {
     -webkit-animation-duration: 20s;
             animation-duration: 20s;
     -webkit-animation-delay: 8s;
@@ -1384,7 +1384,7 @@ Mobile GUI
         background-position: 9px 9px;
         font-family: "purista-web",sans-serif;
     }
-    
+
     .mobile-menu nav.primary .number {
         font-weight: 300;
         font-size: 23px;
@@ -1463,13 +1463,13 @@ Mobile GUI
         border-bottom: 1px solid #5d74f1;
 
     }
-    
+
     .mobile-menu nav.secondary:after{
         content: "";
         display: table;
         clear: both;
     }
-    
+
     .mobile-menu nav.secondary a {
         display: block;
         color:#fff;
@@ -1480,7 +1480,7 @@ Mobile GUI
         letter-spacing: .9px;
         padding: 23px 0 17px 0;
     }
-    
+
     .mobile-menu nav.secondary li:first-child {
         width: 100%;
         border-bottom: 1px solid #5d74f1;
@@ -1609,7 +1609,7 @@ Desktop Navigation
         height: 100%;
         width: 100%;
     }
-    
+
     .desktop-navigation nav li {
         height: 12.5%;
         width: 100%;
@@ -1644,7 +1644,7 @@ Desktop Navigation
 
     .desktop-navigation-active .desktop-navigation nav a {
         right: 0;
-        
+
     }
 
     .desktop-navigation nav li:nth-child(2) a {
@@ -1755,7 +1755,7 @@ Desktop Navigation
         position: relative;
         cursor:pointer;
     }
-    
+
     .sticky-nav-desktop h1.site-logo:active {
     -webkit-transform: scale(.98);
         -ms-transform: scale(.98);
@@ -1815,7 +1815,7 @@ section.intro .logo {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-width: 768px){
     section.intro .logo {
-         background-image:url(../img/intro-logo@2x.png); 
+         background-image:url(../img/intro-logo@2x.png);
     }
 }
 
@@ -1874,7 +1874,7 @@ section.intro .mouse-icon {
 
     section.intro .logo:after {
         margin-bottom: 378px;
-        bottom: 50%; 
+        bottom: 50%;
     }
 
     section.intro .container {
@@ -2071,7 +2071,7 @@ section.intro .mouse-icon {
 
 /*-------------------------------------
 Video Unmasked
--------------------------------------*/ 
+-------------------------------------*/
 
 /* All Resolutions */
 
@@ -3718,7 +3718,7 @@ section.cta .box p {
 
     section.cta .box p {
         font-size: 30px;
-        line-height: 55px; 
+        line-height: 55px;
     }
 
     section.cta button {
@@ -4309,7 +4309,7 @@ Proof
     #proof-of-use .data-drips.active {
         opacity: 1;
     }
-    
+
     #proof-of-use .data-drips.drip-1,
     #proof-of-use .data-drips.drip-3,
     #proof-of-use .data-drips.drip-5 {
@@ -4317,7 +4317,7 @@ Proof
         -ms-transform-origin: top right;
             transform-origin: top right;
     }
-    
+
     #proof-of-use .data-drips.drip-1,
     #proof-of-use .data-drips.drip-5 {
         left: 50%;
@@ -4487,7 +4487,7 @@ Proof
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    
+
 }
 
 /* Mobile */
@@ -4882,51 +4882,51 @@ Road Map
 }
 
 /*-------------------------------------
-Distribution
+ecosystem
 -------------------------------------*/
 
 /* All Resolutions */
 
-#distribution {
+#ecosystem {
     background-color:#f5f7fb;
     position: relative;
     z-index: 2;
     overflow: hidden;
 }
 
-#distribution h2 {
+#ecosystem h2 {
     font-family: "purista-web",sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
 }
 
-#distribution .boxes {
+#ecosystem .boxes {
     position: relative;
     z-index: 2;
 }
 
-#distribution .box {
+#ecosystem .box {
     color:#fff;
     -webkit-box-shadow: 0px 17px 38px 0px rgba(0, 0, 0, 0.13);
             box-shadow: 0px 17px 38px 0px rgba(0, 0, 0, 0.13);
     text-align: center;
 }
 
-#distribution .box:nth-child(even) {
+#ecosystem .box:nth-child(even) {
     background-color:#5b00ff;
 }
 
-#distribution .box:nth-child(odd) {
+#ecosystem .box:nth-child(odd) {
     background-color:#2f4ffd;
 }
 
-#distribution .box p {
+#ecosystem .box p {
     margin: 0;
 }
 
-#distribution .box .number > span,
-#distribution .box .description > span {
+#ecosystem .box .number > span,
+#ecosystem .box .description > span {
     position: absolute;
     top: 50%;
     left: 0;
@@ -4936,11 +4936,11 @@ Distribution
     width: 100%;
 }
 
-#distribution .box .description > span {
+#ecosystem .box .description > span {
     margin-top: -4px;
 }
 
-#distribution .box .number {
+#ecosystem .box .number {
     font-family: "purista-web",sans-serif;
     font-weight: 300;
     display: block;
@@ -4950,7 +4950,7 @@ Distribution
     width: 100%;
 }
 
-#distribution .box .number:after {
+#ecosystem .box .number:after {
     content:'';
     position: absolute;
     bottom: 0;
@@ -4963,11 +4963,11 @@ Distribution
             transform: translateX(-50%);
 }
 
-#distribution .box:nth-child(odd) .number:after {
+#ecosystem .box:nth-child(odd) .number:after {
     background-color: #266cfd;
 }
 
-#distribution .box .description {
+#ecosystem .box .description {
    display: block;
    position: absolute;
    height: 50%;
@@ -4975,7 +4975,7 @@ Distribution
    top: 50%;
 }
 
-#distribution .logo {
+#ecosystem .logo {
     position: absolute;
     width: 106px;
     height: 106px;
@@ -4989,18 +4989,18 @@ Distribution
     background-repeat: no-repeat;
 }
 
-#distribution .copy {
+#ecosystem .copy {
     text-align: center;
 }
 
-#distribution .ripples > span {
+#ecosystem .ripples > span {
     position: absolute;
     width: 200px;
     height: 200px;
     z-index: 1;
 }
 
-#distribution .ripples > span > span {
+#ecosystem .ripples > span > span {
     position: absolute;
     top: 0;
     left: 0;
@@ -5016,47 +5016,47 @@ Distribution
             animation: ripple infinite 5s ease-out;
 }
 
-.animation-disabled #distribution .ripples > span > span {
+.animation-disabled #ecosystem .ripples > span > span {
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
 }
 
-#distribution .ripples > span:nth-child(1) > span:nth-child(2) {
+#ecosystem .ripples > span:nth-child(1) > span:nth-child(2) {
     -webkit-animation-delay: .5s;
             animation-delay: .5s;
 }
 
-#distribution .ripples > span:nth-child(1) > span:nth-child(3) {
+#ecosystem .ripples > span:nth-child(1) > span:nth-child(3) {
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
 }
 
-#distribution .ripples > span:nth-child(2) > span:nth-child(1) {
+#ecosystem .ripples > span:nth-child(2) > span:nth-child(1) {
     -webkit-animation-delay: 1.75s;
             animation-delay: 1.75s;
 }
 
-#distribution .ripples > span:nth-child(2) > span:nth-child(2) {
+#ecosystem .ripples > span:nth-child(2) > span:nth-child(2) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
 }
 
-#distribution .ripples > span:nth-child(2) > span:nth-child(3) {
+#ecosystem .ripples > span:nth-child(2) > span:nth-child(3) {
     -webkit-animation-delay: 2.25s;
             animation-delay: 2.25s;
 }
 
-#distribution .ripples > span:nth-child(3) > span:nth-child(1) {
+#ecosystem .ripples > span:nth-child(3) > span:nth-child(1) {
     -webkit-animation-delay: 1.60s;
             animation-delay: 1.60s;
 }
 
-#distribution .ripples > span:nth-child(3) > span:nth-child(2) {
+#ecosystem .ripples > span:nth-child(3) > span:nth-child(2) {
     -webkit-animation-delay: 1.80s;
             animation-delay: 1.80s;
 }
 
-#distribution .ripples > span:nth-child(3) > span:nth-child(3) {
+#ecosystem .ripples > span:nth-child(3) > span:nth-child(3) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
 }
@@ -5092,106 +5092,106 @@ Distribution
 /* Desktop */
 
 @media screen and (min-width: 768px) {
-    #distribution .container {
+    #ecosystem .container {
         padding-top: 106px;
         padding-bottom: 164px;
         margin: 0 auto;
     }
 
-    #distribution h2 {
+    #ecosystem h2 {
         font-size: 34px;
         letter-spacing: 10px;
     }
 
-    #distribution .boxes {
+    #ecosystem .boxes {
         max-width: 794px;
         width: 100%;
         height: 515px;
         margin: 82px auto 70px auto;
     }
 
-    #distribution .box {
+    #ecosystem .box {
         position: absolute;
         width: 225px;
         height: 225px;
         background-color:#2f4ffd;
     }
 
-    #distribution .box .number:after {
+    #ecosystem .box .number:after {
         width: 192px;
     }
 
-    #distribution .box .number {
+    #ecosystem .box .number {
         font-size: 34px;
         letter-spacing: 6px;
     }
 
-    #distribution .box .description {
+    #ecosystem .box .description {
         font-size: 18px;
         line-height: 26px;
     }
 
-    #distribution .box .number > span,
-    #distribution .box .description > span {
+    #ecosystem .box .number > span,
+    #ecosystem .box .description > span {
         padding: 0 20px;
     }
 
-    #distribution .box:nth-child(1) {
+    #ecosystem .box:nth-child(1) {
         left: 0;
     }
 
-    #distribution .box:nth-child(2) {
+    #ecosystem .box:nth-child(2) {
         left: 50%;
         margin-left: -112px;
     }
 
-    #distribution .box:nth-child(3) {
+    #ecosystem .box:nth-child(3) {
         right: 0;
     }
 
-    #distribution .box:nth-child(4) {
+    #ecosystem .box:nth-child(4) {
         top: 289px;
     }
 
-    #distribution .box:nth-child(5) {
+    #ecosystem .box:nth-child(5) {
         top: 289px;
         left: 50%;
         margin-left: -112px;
     }
 
-    #distribution .box:nth-child(6) {
+    #ecosystem .box:nth-child(6) {
         top: 289px;
         right: 0;
     }
 
-    #distribution .logo {
+    #ecosystem .logo {
         left: 50%;
         top: 50%;
         margin-left: -53px;
         margin-top: -53px;
     }
 
-    #distribution .ripples > span:nth-child(1) {
+    #ecosystem .ripples > span:nth-child(1) {
          top: -100px;
          left: 5%;
     }
 
-    #distribution .ripples > span:nth-child(2) {
+    #ecosystem .ripples > span:nth-child(2) {
          top: 32%;
          left: 68%;
     }
 
-    #distribution .ripples > span:nth-child(3) {
+    #ecosystem .ripples > span:nth-child(3) {
          top: 70%;
          left: 20%;
     }
 
-    #distribution .copy {
+    #ecosystem .copy {
         max-width: 480px;
         margin: 0 auto;
     }
 
-    #distribution .copy p {
+    #ecosystem .copy p {
         font-size:18px;
         margin-bottom: 20px;
         line-height: 29px;
@@ -5201,39 +5201,39 @@ Distribution
 /* Mobile */
 
 @media screen and (max-width: 767px) {
-    #distribution .container {
+    #ecosystem .container {
         padding-top: 80px;
     }
 
-    #distribution .ripples > span:nth-child(1) {
+    #ecosystem .ripples > span:nth-child(1) {
          top: -100px;
          left: 5%;
     }
 
-    #distribution .ripples > span:nth-child(2) {
+    #ecosystem .ripples > span:nth-child(2) {
          top: 32%;
          left: 68%;
     }
 
-    #distribution .ripples > span:nth-child(3) {
+    #ecosystem .ripples > span:nth-child(3) {
          top: 70%;
          left: 20%;
     }
 
-    #distribution .boxes:after {
+    #ecosystem .boxes:after {
         content: "";
         display: table;
         clear: both;
     }
 
-    #distribution .boxes {
+    #ecosystem .boxes {
         position: relative;
         padding: 19px;
         max-width: 373px;
         margin: 53px auto 85px auto;
     }
 
-    #distribution .box {
+    #ecosystem .box {
         float: left;
         position: relative;
         width: 48%;
@@ -5242,48 +5242,48 @@ Distribution
         margin-bottom: 3.4%;
     }
 
-    #distribution .box .description {
+    #ecosystem .box .description {
         font-size: 16px;
         line-height: 22px;
     }
 
-    #distribution .logo {
+    #ecosystem .logo {
         bottom: -56px;
         left: 50%;
         margin-left: -53px;
     }
 
-    #distribution .box:nth-child(odd) {
+    #ecosystem .box:nth-child(odd) {
         margin-left: 0;
     }
 
-    #distribution h2 {
+    #ecosystem h2 {
         font-size: 23px;
         letter-spacing: 7px;
     }
 
-    #distribution .box .number {
+    #ecosystem .box .number {
         font-size: 23px;
         letter-spacing: 5px;
     }
 
-    #distribution .box .number:after {
+    #ecosystem .box .number:after {
         width: 139px;
     }
 
-    #distribution .copy {
+    #ecosystem .copy {
         max-width: 305px;
         margin: 0 auto 60px auto;
     }
 
-    #distribution .copy p {
+    #ecosystem .copy p {
         font-size: 16px;
         line-height: 25px;
         margin-bottom: 19px;
     }
 
-    #distribution .box .number > span,
-    #distribution .box .description > span {
+    #ecosystem .box .number > span,
+    #ecosystem .box .description > span {
         padding: 0 10px;
     }
 }
@@ -5326,7 +5326,7 @@ Contribution
 
 /* All Resolutions */
 
-#contribution-period {
+#chronos {
     width: 100%;
     max-width: 1396px;
     margin: 0 auto;
@@ -5334,7 +5334,7 @@ Contribution
     z-index: 3;
 }
 
-#contribution-period .cta {
+#chronos .cta {
     color:#fff;
     background-image:url(../img/contribution-cta-bg.jpg);
     background-position: center;
@@ -5343,22 +5343,22 @@ Contribution
     position: relative;
 }
 
-#contribution-period .cta h2 {
+#chronos .cta h2 {
     font-family: "purista-web",sans-serif;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-#contribution-period .box {
+#chronos .box {
     text-align: center;
 }
 
-#contribution-period .box .heading {
+#chronos .box .heading {
     position: relative;
     padding: 0 20px;
 }
 
-#contribution-period .box .heading:after {
+#chronos .box .heading:after {
     content:'';
     position: absolute;
     bottom: 0;
@@ -5366,7 +5366,7 @@ Contribution
     background-color:#0050ff;
 }
 
-#contribution-period .box h3 {
+#chronos .box h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
@@ -5378,7 +5378,7 @@ Contribution
             transform: translateY(-50%);
 }
 
-#contribution-period .box .number {
+#chronos .box .number {
     color:#0050ff;
     font-family: "purista-web",sans-serif;
     font-weight: 300;
@@ -5386,7 +5386,7 @@ Contribution
     position: relative;
 }
 
-#contribution-period .box .number > span {
+#chronos .box .number > span {
     display: block;
     position: relative;
     top: 50%;
@@ -5395,38 +5395,38 @@ Contribution
             transform: translateY(-50%);
 }
 
-#contribution-period .box .description span {
+#chronos .box .description span {
     display: block;
 }
 
 /* Desktop */
 
 @media screen and (min-width: 1251px) {
-    #contribution-period .cta h2 {
+    #chronos .cta h2 {
         letter-spacing: 10px;
         font-size: 34px;
     }
 }
 
 @media screen and (max-width: 1250px) and (min-width: 1024px){
-    #contribution-period .cta h2 {
+    #chronos .cta h2 {
         letter-spacing: 7px;
         font-size: 28px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    #contribution-period {
+    #chronos {
         height: 846px;
     }
 
-    #contribution-period .cta {
+    #chronos .cta {
         width: 30%;
         height: 100%;
         float: left;
     }
 
-    #contribution-period .cta .copy {
+    #chronos .cta .copy {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -5439,82 +5439,82 @@ Contribution
         padding:0 20px;
     }
 
-    #contribution-period .cta .copy p {
+    #chronos .cta .copy p {
         max-width: 325px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    #contribution-period .cta h2 {
+    #chronos .cta h2 {
         margin-bottom: 25px;
         line-height: 42px;
     }
 
-    #contribution-period .cta p {
+    #chronos .cta p {
         font-size: 18px;
         line-height: 30px;
         margin-bottom: 40px;
     }
 
-    #contribution-period .boxes {
+    #chronos .boxes {
         margin-left: 30%;
     }
 }
 
 @media screen and (min-width: 768px) {
-    #contribution-period {
+    #chronos {
         margin-bottom: 195px;
         -webkit-box-shadow: 0px 17px 38px 0px rgba(0, 0, 0, 0.03);
                 box-shadow: 0px 17px 38px 0px rgba(0, 0, 0, 0.03);
     }
 
-    #contribution-period .boxes {
+    #chronos .boxes {
         position: relative;
         height: 100%;
-        
+
     }
 
-    #contribution-period .box {
+    #chronos .box {
         position: absolute;
         height: 50%;
         width: 50%;
     }
 
-    #contribution-period .box:nth-child(1){
+    #chronos .box:nth-child(1){
         border-bottom: 1px solid #d5dcff;
         border-right: 1px solid #d5dcff;
     }
 
-    #contribution-period .box:nth-child(2){
+    #chronos .box:nth-child(2){
         right: 0;
         border-bottom: 1px solid #d5dcff;
     }
 
-    #contribution-period .box:nth-child(3){
+    #chronos .box:nth-child(3){
         top: 50%;
         border-right: 1px solid #d5dcff;
     }
 
-    #contribution-period .box:nth-child(4){
+    #chronos .box:nth-child(4){
         right: 0;
         top: 50%;
     }
 
-    #contribution-period .box {
+    #chronos .box {
         padding: 57px 20px 0 20px;
     }
 
-    #contribution-period .box .heading {
+    #chronos .box .heading {
         height: 119px;
         position: relative;
     }
 
-    #contribution-period .box .heading:after {
+    #chronos .box .heading:after {
         width: 73px;
         margin-left: -36px;
     }
 
-    #contribution-period .box h3 {
+    #chronos .box h3 {
         font-size: 18px;
         letter-spacing: 4.7px;
         line-height: 27px;
@@ -5522,13 +5522,13 @@ Contribution
         margin: 0 auto;
     }
 
-    #contribution-period .box p {
+    #chronos .box p {
         margin:  0 auto;
         line-height: 30px;
         font-size: 18px;
     }
-    
-    #contribution-period .box .number {
+
+    #chronos .box .number {
         line-height: 34px;
         font-size: 34px;
         letter-spacing: 6px;
@@ -5536,7 +5536,7 @@ Contribution
         margin-top: 26px;
     }
 
-    #contribution-period .box .description {
+    #chronos .box .description {
         display: block;
         max-width: 200px;
         margin: 0 auto;
@@ -5546,17 +5546,17 @@ Contribution
 /* Mobile */
 
 @media screen and (max-width: 1023px) {
-    #contribution-period .cta {
+    #chronos .cta {
         padding: 66px 20px;
     }
 
-    #contribution-period .cta h2 {
+    #chronos .cta h2 {
         font-size: 23px;
         letter-spacing: 7px;
         margin-bottom: 24px;
     }
 
-    #contribution-period .cta p {
+    #chronos .cta p {
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 27px;
@@ -5564,20 +5564,20 @@ Contribution
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
-    #contribution-period .boxes {
+    #chronos .boxes {
         height: 846px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    #contribution-period .box {
+    #chronos .box {
         position: relative;
         background-color:#fff;
         padding: 0 15px;
         height: 305px;
     }
 
-    #contribution-period .box:after {
+    #chronos .box:after {
         content:'';
         height: 1px;
         width: 335px;
@@ -5588,16 +5588,16 @@ Contribution
         background-color:#d5dcff;
     }
 
-    #contribution-period .box .heading {
+    #chronos .box .heading {
         height: 111px;
     }
 
-    #contribution-period .box .heading:after {
+    #chronos .box .heading:after {
         width: 73px;
         margin-left: -36px;
     }
 
-    #contribution-period .box h3 {
+    #chronos .box h3 {
         font-size: 15px;
         letter-spacing: 4.7px;
         line-height: 27px;
@@ -5605,13 +5605,13 @@ Contribution
         margin: 0 auto;
     }
 
-    #contribution-period .box p {
+    #chronos .box p {
         margin:  0 auto;
         line-height: 27px;
         font-size: 16px;
     }
-    
-    #contribution-period .box .number {
+
+    #chronos .box .number {
         line-height: 25px;
         font-size:23px;
         letter-spacing: 4px;
@@ -5620,7 +5620,7 @@ Contribution
         height: 85px;
     }
 
-    #contribution-period .box .description {
+    #chronos .box .description {
         display: block;
         max-width: 200px;
         margin: 0 auto;
@@ -5633,21 +5633,21 @@ Our Team
 
 /* All Resolutions */
 
-#our-team {
+#team-and-advisors {
     position: relative;
     z-index: 2;
     background-color:#2d2443;
     overflow: hidden;
 }
 
-#our-team .container {
+#team-and-advisors .container {
     position: relative;
     z-index: 2;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-#our-team h2 {
+#team-and-advisors h2 {
     font-family: "purista-web",sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -5656,18 +5656,18 @@ Our Team
     margin: 0;
 }
 
-#our-team .boxes {
+#team-and-advisors .boxes {
     position: relative;
 }
 
-#our-team .box {
+#team-and-advisors .box {
     color:#fff;
     text-align: center;
     position: relative;
     overflow: hidden;
 }
 
-#our-team .box:before {
+#team-and-advisors .box:before {
     content:'';
     position: absolute;
     top: 0;
@@ -5679,7 +5679,7 @@ Our Team
     background-size: cover;
 }
 
-#our-team .box:after {
+#team-and-advisors .box:after {
     content:'';
     position: absolute;
     width: 100%;
@@ -5694,25 +5694,25 @@ Our Team
 
 }
 
-.no-touch #our-team .box:hover:after {
+.no-touch #team-and-advisors .box:hover:after {
     opacity: 1;
 }
 
-#our-team .box.active:after {
+#team-and-advisors .box.active:after {
     opacity: 0;
 }
 
-#our-team .name h3 {
+#team-and-advisors .name h3 {
     text-transform: uppercase;
     font-weight: normal;
     margin: 0;
 }
 
-#our-team .bio p {
+#team-and-advisors .bio p {
     margin: 0;
 }
 
-#our-team .info {
+#team-and-advisors .info {
     cursor: pointer;
     position: absolute;
     overflow: hidden;
@@ -5722,19 +5722,19 @@ Our Team
     background-color:rgba(47, 79, 253, .8);
 }
 
-.no-touch #our-team .box:not(.active):hover .info {
+.no-touch #team-and-advisors .box:not(.active):hover .info {
     background-color:rgba(47, 79, 253, 1);
 }
 
-#our-team .box .info > div {
+#team-and-advisors .box .info > div {
     position: relative;
     top: 46%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
 }
-    
-#our-team .box .bio {
+
+#team-and-advisors .box .bio {
     margin: 0 auto;
     opacity: 0;
     -webkit-transition: opacity 500ms ease, height 500ms ease;
@@ -5743,87 +5743,87 @@ Our Team
     height: 0;
 }
 
-#our-team .box.active .bio {
+#team-and-advisors .box.active .bio {
     opacity: 1;
 }
 
-#our-team .deven-soni:before {
+#team-and-advisors .deven-soni:before {
     background-image: url(../img/deven-soni-tint.jpg)
 }
 
-#our-team .deven-soni:after {
+#team-and-advisors .deven-soni:after {
     background-image: url(../img/deven-soni.jpg)
 }
 
-#our-team .digistrats:before {
+#team-and-advisors .digistrats:before {
     background-image: url(../img/digistrats-tint.jpg)
 }
 
-#our-team .digistrats:after {
+#team-and-advisors .digistrats:after {
     background-image: url(../img/digistrats.jpg)
 }
 
-#our-team .tosh-sharma:before {
+#team-and-advisors .tosh-sharma:before {
     background-image: url(../img/tosh-sharma-tint.jpg)
 }
 
-#our-team .tosh-sharma:after {
+#team-and-advisors .tosh-sharma:after {
     background-image: url(../img/tosh-sharma.jpg)
 }
 
-#our-team .jovar-gaylan:before {
+#team-and-advisors .jovar-gaylan:before {
     background-image: url(../img/jovar-gaylan-tint.jpg)
 }
 
-#our-team .jovar-gaylan:after {
+#team-and-advisors .jovar-gaylan:after {
     background-image: url(../img/jovar-gaylan.jpg)
 }
 
-#our-team .lee-pennington:before {
+#team-and-advisors .lee-pennington:before {
     background-image: url(../img/lee-pennington-tint.jpg)
 }
 
-#our-team .lee-pennington:after {
+#team-and-advisors .lee-pennington:after {
     background-image: url(../img/lee-pennington.jpg)
 }
 
-#our-team .sakaar-bhatia:before {
+#team-and-advisors .sakaar-bhatia:before {
     background-image: url(../img/sakaar-bhatia-tint.jpg)
 }
 
-#our-team .sakaar-bhatia:after {
+#team-and-advisors .sakaar-bhatia:after {
     background-image: url(../img/sakaar-bhatia.jpg)
 }
 
-#our-team .alexander-shevtsov:before {
+#team-and-advisors .alexander-shevtsov:before {
     background-image: url(../img/alexander-shevtsov-tint.jpg)
 }
 
-#our-team .alexander-shevtsov:after {
+#team-and-advisors .alexander-shevtsov:after {
     background-image: url(../img/alexander-shevtsov.jpg)
 }
 
-#our-team .wired-investors:before {
+#team-and-advisors .wired-investors:before {
     background-image: url(../img/wired-investors-tint.jpg)
 }
 
-#our-team .wired-investors:after {
+#team-and-advisors .wired-investors:after {
     background-image: url(../img/wired-investors.jpg)
 }
 
-#our-team .justin-jovanovic:before {
+#team-and-advisors .justin-jovanovic:before {
     background-image: url(../img/justin-jovanovic-tint.jpg)
 }
 
-#our-team .justin-jovanovic:after {
+#team-and-advisors .justin-jovanovic:after {
     background-image: url(../img/justin-jovanovic.jpg)
 }
 
-#our-team .thiago-oliveira:before {
+#team-and-advisors .thiago-oliveira:before {
     background-image: url(../img/thiago-oliveira-tint.jpg)
 }
 
-#our-team .thiago-oliveira:after {
+#team-and-advisors .thiago-oliveira:after {
     background-image: url(../img/thiago-oliveira.jpg)
 }
 
@@ -5831,62 +5831,62 @@ Our Team
 
 @media screen and (min-width: 1024px) {
 
-    #our-team .container {
+    #team-and-advisors .container {
         padding-top: 128px;
     }
 
-    #our-team .boxes {
+    #team-and-advisors .boxes {
         margin-top: 136px;
     }
 
-    #our-team h2 {
+    #team-and-advisors h2 {
         font-size: 34px;
         letter-spacing: 10px;
     }
 
-    #our-team .boxes {
+    #team-and-advisors .boxes {
         position: relative;
         width: 100%;
     }
 
-    #our-team .box {
+    #team-and-advisors .box {
         float: left;
         width: 500px;
         height: 500px;
         margin-bottom: 100px;
     }
 
-    #our-team .box:nth-child(even){
+    #team-and-advisors .box:nth-child(even){
         float: right;
     }
-    
-    #our-team .info {
+
+    #team-and-advisors .info {
         width: 476px;
         height: 91px;
         bottom: 12px;
         left: 12px;
     }
 
-    #our-team .box.active .info {
+    #team-and-advisors .box.active .info {
         height: 476px;
     }
 
-    #our-team .name {
+    #team-and-advisors .name {
         letter-spacing: 3px;
         padding: 37px 0 30px 0;
     }
 
-    #our-team .name h3 {
+    #team-and-advisors .name h3 {
         font-size: 18px;
         letter-spacing: 5px;
     }
 
-    #our-team .bio {
+    #team-and-advisors .bio {
         max-width:360px;
         padding-bottom: 7px;
     }
 
-    #our-team .bio p {
+    #team-and-advisors .bio p {
         font-size: 18px;
         line-height: 30px;
     }
@@ -5937,7 +5937,7 @@ Our Team
         }
     }
 
-    #our-team .block-animation span {
+    #team-and-advisors .block-animation span {
         -webkit-animation: blockfallteamdesktop infinite 18.5s linear;
                 animation: blockfallteamdesktop infinite 18.5s linear;
     }
@@ -5947,18 +5947,18 @@ Our Team
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
 
-    #our-team .boxes:after {
+    #team-and-advisors .boxes:after {
         content: "";
         display: table;
         clear: both;
-        
+
     }
-    #our-team .boxes {
+    #team-and-advisors .boxes {
         margin: 0 auto;
         width: 756px;
     }
-    
-    #our-team .box {
+
+    #team-and-advisors .box {
         float: left;
         margin: 0 10px 22px 10px;
     }
@@ -6009,65 +6009,65 @@ Our Team
         }
     }
 
-    #our-team .block-animation span {
+    #team-and-advisors .block-animation span {
         -webkit-animation: block infinite 18.5s linear;
                 animation: blockfallteamtablet infinite 18.5s linear;
     }
 }
 
 @media screen and (max-width: 767px) {
-    #our-team .box {
+    #team-and-advisors .box {
         margin: 0 auto 22px auto;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    #our-team .container {
+    #team-and-advisors .container {
         padding-top: 80px;
     }
 
-    #our-team h2 {
+    #team-and-advisors h2 {
         font-size: 23px;
         letter-spacing: 7px;
     }
 
-    #our-team .boxes {
+    #team-and-advisors .boxes {
         margin-top: 76px;
         padding: 0 20px;
     }
 
-    #our-team .box {
+    #team-and-advisors .box {
         width: 338px;
         height: 334px;
     }
 
-    #our-team .info {
+    #team-and-advisors .info {
         width: 320px;
         height: 63px;
         bottom: 9px;
         left: 9px;
     }
 
-    #our-team .box.active .info {
+    #team-and-advisors .box.active .info {
         height: 319px;
     }
 
-    #our-team .name {
+    #team-and-advisors .name {
         letter-spacing: 3px;
         padding: 37px 0 30px 0;
     }
 
-    #our-team .name h3 {
+    #team-and-advisors .name h3 {
         font-size: 16px;
         letter-spacing: 4px;
     }
 
-    #our-team .bio {
+    #team-and-advisors .bio {
         max-width: 280px;
         padding-bottom: 7px;
     }
 
-    #our-team .bio p {
+    #team-and-advisors .bio p {
         font-size: 16px;
         line-height: 28px;
     }
@@ -6118,7 +6118,7 @@ Our Team
         }
     }
 
-    #our-team .block-animation span {
+    #team-and-advisors .block-animation span {
         -webkit-animation: block infinite 18.5s linear;
                 animation: blockfallteammobile infinite 18.5s linear;
     }
@@ -6195,7 +6195,7 @@ footer.main h2 {
     -webkit-transition:opacity 500ms ease;
     -o-transition:opacity 500ms ease;
     transition:opacity 500ms ease;
-    
+
 }
 
 footer.main.active h2 {
