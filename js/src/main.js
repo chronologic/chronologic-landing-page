@@ -56,16 +56,16 @@ jQuery(document).ready(function($){
 					scrollpoint = target.offset().top - offset;
 				}else if(target.attr('id') == 'road-map') {
 					scrollpoint = target.offset().top - parseInt(target.css('margin-top')) - offset;
-				}else if(target.attr('id') == 'distribution') {
+				}else if(target.attr('id') == 'ecosystem') {
 					scrollpoint = target.offset().top - offset;
-				}else if(target.attr('id') == 'contribution-period') {
+				}else if(target.attr('id') == 'chronos') {
 					scrollpoint = target.offset().top - offset;
-				}else if(target.attr('id') == 'our-team') {
+				}else if(target.attr('id') == 'team-and-advisors') {
 					scrollpoint = target.offset().top - offset;
 				}
-				
+
 				console.log(parseInt(scrollpoint))
-				
+
 				$('html, body').animate({
 					scrollTop: scrollpoint
 					}, 1000, function() {
@@ -99,9 +99,9 @@ jQuery(document).ready(function($){
 	-------------------------------------*/
 
 	function showAllLinks(){
-		if(pageScroll >= ($window.height() - $window.height()/4)){	
+		if(pageScroll >= ($window.height() - $window.height()/4)){
 			$('body').addClass('show-all-links');
-		}else{		
+		}else{
 			$('body').removeClass('show-all-links');
 		}
 	}
@@ -113,9 +113,9 @@ jQuery(document).ready(function($){
 	-------------------------------------*/
 
 	function stickyNav(){
-		if($(this).scrollTop() > ($window.height()*2)){	
+		if($(this).scrollTop() > ($window.height()*2)){
 			$('body').addClass('sticky-nav-enabled');
-		}else if($('body').hasClass('sticky-nav-enabled')){		
+		}else if($('body').hasClass('sticky-nav-enabled')){
 			$('body').removeClass('sticky-nav-enabled');
 		}
 	}
@@ -147,7 +147,7 @@ jQuery(document).ready(function($){
 	$window.on('resize orientationchange', unmaskVideo).trigger('resize');
 
 	$window.on('scroll', function(){
-		if(pageScroll < $('section.intro').outerHeight()){	
+		if(pageScroll < $('section.intro').outerHeight()){
 			$('section.intro').next().addClass('pinned');
 		}else{
 			$('section.intro').next().removeClass('pinned');
@@ -205,7 +205,7 @@ jQuery(document).ready(function($){
 
 		var thisClass = $(this).attr('class').split(' ').pop(),
 			$modal = $('.modal.'+thisClass);
-		
+
 		$modal.fadeIn(300, function(){
 			$modal.on('click', closeModal);
 			$modal.find('.modal-window').click(function(e){
@@ -247,7 +247,7 @@ jQuery(document).ready(function($){
 						$(this).get(0).pause();
 					}
 				});
-				
+
 			}, 2);
 		}
 
@@ -277,7 +277,7 @@ jQuery(document).ready(function($){
 
 			offset = ($window.height()/2) - ($watch.outerHeight()/2);
 			start = $('#what-is-chronologic').offset().top;
-			
+
 			if($window.width() >= 1024){
 				end = $('#what-is-chronologic').offset().top + ($('#what-is-chronologic').outerHeight() - 1100);
 			}else{
@@ -285,15 +285,15 @@ jQuery(document).ready(function($){
 			}
 
 			$window.trigger('scroll');
-			
+
 		}).trigger('resize');
 
 		$window.on('scroll', function(){
 
 			var trigger = pageScroll + offset;
-			
+
 			if(trigger > start && trigger < end){
-				
+
 				//var duration = Math.ceil((trigger - start) / ( end - start) * 100);
 
 				if(!$watch.hasClass('pinned')){
@@ -361,7 +361,7 @@ jQuery(document).ready(function($){
 		}).trigger('resize');
 
 		$window.on('load scroll resize', function(){
-			
+
 			if(pageScroll > offset){
 				if(!$item.hasClass('active')){
 					$item.addClass('active');
@@ -371,8 +371,8 @@ jQuery(document).ready(function($){
 					if($item.hasClass('block')){
 						$item.prev().addClass('active');
 					}
-					if($item.hasClass('our-team')){
-						$('.block-animation.background').addClass('our-team');
+					if($item.hasClass('team-and-advisors')){
+						$('.block-animation.background').addClass('team-and-advisors');
 					}
 				}
 			}else if(pageScroll + $window.height() < $item.offset().top){
@@ -427,7 +427,7 @@ jQuery(document).ready(function($){
 			triggerPoint: 'screenTop'
 		});
 	}
-	
+
 	/*-------------------------------------
 	Countdown Init
 	-------------------------------------*/
@@ -478,7 +478,7 @@ jQuery(document).ready(function($){
 
 	    },
 	    onEndCallback: function() {
-	        
+
 		}
 	});
 
@@ -593,8 +593,8 @@ jQuery(document).ready(function($){
 	Bio Box
 	-------------------------------------*/
 
-	$('#our-team .box').on('click', function(){
-		$('#our-team .box.active').not(this).removeClass('active').find('.bio').height(0);
+	$('#team-and-advisors .box').on('click', function(){
+		$('#team-and-advisors .box.active').not(this).removeClass('active').find('.bio').height(0);
 		$(this).toggleClass('active');
 		if($(this).hasClass('active')){
 			$(this).find('.bio').height($(this).find('.bio > p').height());
