@@ -2265,6 +2265,19 @@ section.video-unmasked .mouse-icon.mobile {
         background-color:#fff;
     }
 
+    nav.secondary a.whitepaper svg {
+  width: 11px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: -1px 0 0 5px;
+  fill:#2f4ffd;
+  }
+
+  nav.secondary a.whitepaper:hover svg {
+  fill:#9fadf8;
+  }
+
     nav.secondary a.slack svg {
         width: 15px;
         height: 15px;
@@ -2290,6 +2303,32 @@ section.video-unmasked .mouse-icon.mobile {
     nav.secondary a.github:hover svg {
         fill:#9fadf8;
     }
+
+    nav.secondary a.youtube svg {
+  width: 17px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 1px 0 0 5px;
+  fill:#2f4ffd;
+  }
+
+  nav.secondary a.youtube:hover svg {
+  fill:#9fadf8;
+  }
+
+  nav.secondary a.blog svg {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: -1px 0 0 5px;
+  fill:#2f4ffd;
+  }
+
+  nav.secondary a.blog:hover svg {
+  fill:#9fadf8;
+  }
 
     .countdown {
         position: absolute;
@@ -6268,6 +6307,45 @@ footer.main nav a.slack svg {
 
 .no-touch footer.main nav a.slack:hover svg {
     fill:#09ceff;
+}
+
+footer.main nav a.youtube svg {
+    width: 17px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: -1px 0 0 10px;
+    fill:#ffffff;
+}
+
+.no-touch footer.main nav a.youtube:hover svg {
+    fill:#09ceff;
+}
+
+footer.main nav a.blog svg {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: -1px 0 0 10px;
+  fill:#ffffff;
+}
+
+.no-touch footer.main nav a.blog:hover svg {
+  fill:#09ceff;
+}
+
+footer.main nav a.reddit svg {
+  width: 16px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: -1px 0 0 10px;
+  fill:#ffffff;
+}
+
+.no-touch footer.main nav a.reddit:hover svg {
+  fill:#09ceff;
 }
 
 footer.main nav a.github svg {
