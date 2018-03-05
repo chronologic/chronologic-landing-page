@@ -1498,13 +1498,17 @@ Mobile GUI
         border-right: 1px solid #5d74f1;
     }
 
+    .mobile-menu nav.secondary a.whitepaper,
     .mobile-menu nav.secondary a.slack,
-    .mobile-menu nav.secondary a.github {
+    .mobile-menu nav.secondary a.github,
+    .mobile-menu nav.secondary a.blog {
         margin-left: -14px;
     }
 
+    .mobile-menu nav.secondary a.whitepaper:after,
     .mobile-menu nav.secondary a.slack:after,
-    .mobile-menu nav.secondary a.github:after {
+    .mobile-menu nav.secondary a.github:after,
+    .mobile-menu nav.secondary a.blog:after {
         content:'';
         position: absolute;
         margin-top: -2px;
@@ -1517,12 +1521,20 @@ Mobile GUI
         background-position: right center;
     }
 
+    .mobile-menu nav.secondary a.whitepaper:after {
+        background-image:url(../img/icon-whitepaper.svg);
+    }
+
     .mobile-menu nav.secondary a.slack:after {
         background-image:url(../img/icon-slack.svg);
     }
 
     .mobile-menu nav.secondary a.github:after {
         background-image:url(../img/icon-github.svg);
+    }
+
+    .mobile-menu nav.secondary a.blog:after {
+        background-image:url(../img/icon-blog.svg);
     }
 }
 
