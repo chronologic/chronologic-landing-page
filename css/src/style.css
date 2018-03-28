@@ -5838,20 +5838,20 @@ Our Team
     background-image: url(../img/lee-pennington.jpg)
 }
 
-#team-and-advisors .sakaar-bhatia:before {
-    background-image: url(../img/sakaar-bhatia-tint.jpg)
+#team-and-advisors .piotr-kosinski:before {
+    background-image: url(../img/piotr-kosinski-tint.jpg)
 }
 
-#team-and-advisors .sakaar-bhatia:after {
-    background-image: url(../img/sakaar-bhatia.jpg)
+#team-and-advisors .piotr-kosinski:after {
+    background-image: url(../img/piotr-kosinski.jpg)
 }
 
-#team-and-advisors .alexander-shevtsov:before {
-    background-image: url(../img/alexander-shevtsov-tint.jpg)
+#team-and-advisors .logan-saether:before {
+    background-image: url(../img/logan-saether-tint.jpg)
 }
 
-#team-and-advisors .alexander-shevtsov:after {
-    background-image: url(../img/alexander-shevtsov.jpg)
+#team-and-advisors .logan-saether:after {
+    background-image: url(../img/logan-saether.jpg)
 }
 
 #team-and-advisors .wired-investors:before {
@@ -5862,12 +5862,28 @@ Our Team
     background-image: url(../img/wired-investors.jpg)
 }
 
-#team-and-advisors .justin-jovanovic:before {
-    background-image: url(../img/justin-jovanovic-tint.jpg)
+#team-and-advisors .daniel-kmak:before {
+    background-image: url(../img/daniel-kmak-tint.jpg)
 }
 
-#team-and-advisors .justin-jovanovic:after {
-    background-image: url(../img/justin-jovanovic.jpg)
+#team-and-advisors .daniel-kmak:after {
+    background-image: url(../img/daniel-kmak.jpg)
+}
+
+#team-and-advisors .joseph-bagaric:before {
+    background-image: url(../img/joseph-bagaric-tint.jpg)
+}
+
+#team-and-advisors .joseph-bagaric:after {
+    background-image: url(../img/joseph-bagaric.jpg)
+}
+
+#team-and-advisors .sean-morgan:before {
+    background-image: url(../img/sean-morgan-tint.jpg)
+}
+
+#team-and-advisors .sean-morgan:after {
+    background-image: url(../img/sean-morgan.jpg)
 }
 
 #team-and-advisors .thiago-oliveira:before {
