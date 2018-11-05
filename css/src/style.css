@@ -3215,7 +3215,7 @@ TimeMints
 
 .timemint {
     position: absolute;
-    background-image:url(../img/timemint.png);
+    background-image:url(../img/transaction.png);
     color:#0cc0ef;
     font-family: "purista-web",sans-serif;
 }
@@ -3711,7 +3711,7 @@ section.cta.time .box {
 }
 
 section.cta.join .box {
-    background-image:url(../img/cta-join-bg.jpg);
+    background-image:url(../img/cta-join-bg2.jpg);
     background-position: bottom right;
 }
 
