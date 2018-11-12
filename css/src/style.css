@@ -6645,6 +6645,13 @@ Placeholder
 -------------------------------------*/
 
 /* All Resolutions */
+.hide {
+    display: none;
+}
+
+.eth-transferred-wrapper {
+    font-size: 48px !important;
+}
 
 /* Desktop */
 
