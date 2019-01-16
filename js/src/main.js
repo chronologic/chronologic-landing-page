@@ -56,7 +56,7 @@ jQuery(document).ready(function($){
 					scrollpoint = target.offset().top - offset;
 				}else if(target.attr('id') == 'road-map') {
 					scrollpoint = target.offset().top - parseInt(target.css('margin-top')) - offset;
-				}else if(target.attr('id') == 'ecosystem') {
+				}else if(target.attr('id') == 'integrations') {
 					scrollpoint = target.offset().top - offset;
 				}else if(target.attr('id') == 'chronos') {
 					scrollpoint = target.offset().top - offset;
