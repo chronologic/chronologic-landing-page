@@ -4933,51 +4933,51 @@ Road Map
 }
 
 /*-------------------------------------
-ecosystem
+integrations
 -------------------------------------*/
 
 /* All Resolutions */
 
-#ecosystem {
+#integrations {
     background-color:#f5f7fb;
     position: relative;
     z-index: 2;
     overflow: hidden;
 }
 
-#ecosystem h2 {
+#integrations h2 {
     font-family: "purista-web",sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
 }
 
-#ecosystem .boxes {
+#integrations .boxes {
     position: relative;
     z-index: 2;
 }
 
-#ecosystem .box {
+#integrations .box {
     color:#fff;
     -webkit-box-shadow: 0px 17px 38px 0px rgba(0, 0, 0, 0.13);
             box-shadow: 0px 17px 38px 0px rgba(0, 0, 0, 0.13);
     text-align: center;
 }
 
-#ecosystem .box:nth-child(even) {
+#integrations .box:nth-child(even) {
     background-color:#5b00ff;
 }
 
-#ecosystem .box:nth-child(odd) {
+#integrations .box:nth-child(odd) {
     background-color:#2f4ffd;
 }
 
-#ecosystem .box p {
+#integrations .box p {
     margin: 0;
 }
 
-#ecosystem .box .number > span,
-#ecosystem .box .description > span {
+#integrations .box .number > span,
+#integrations .box .description > span {
     position: absolute;
     top: 50%;
     left: 0;
@@ -4987,11 +4987,11 @@ ecosystem
     width: 100%;
 }
 
-#ecosystem .box .description > span {
+#integrations .box .description > span {
     margin-top: -4px;
 }
 
-#ecosystem .box .number {
+#integrations .box .number {
     font-family: "purista-web",sans-serif;
     font-weight: 300;
     display: block;
@@ -5001,7 +5001,7 @@ ecosystem
     width: 100%;
 }
 
-#ecosystem .box .number:after {
+#integrations .box .number:after {
     content:'';
     position: absolute;
     bottom: 0;
@@ -5014,11 +5014,11 @@ ecosystem
             transform: translateX(-50%);
 }
 
-#ecosystem .box:nth-child(odd) .number:after {
+#integrations .box:nth-child(odd) .number:after {
     background-color: #266cfd;
 }
 
-#ecosystem .box .description {
+#integrations .box .description {
    display: block;
    position: absolute;
    height: 50%;
@@ -5026,7 +5026,7 @@ ecosystem
    top: 50%;
 }
 
-#ecosystem .logo {
+#integrations .logo {
     position: absolute;
     width: 106px;
     height: 106px;
@@ -5040,18 +5040,18 @@ ecosystem
     background-repeat: no-repeat;
 }
 
-#ecosystem .copy {
+#integrations .copy {
     text-align: center;
 }
 
-#ecosystem .ripples > span {
+#integrations .ripples > span {
     position: absolute;
     width: 200px;
     height: 200px;
     z-index: 1;
 }
 
-#ecosystem .ripples > span > span {
+#integrations .ripples > span > span {
     position: absolute;
     top: 0;
     left: 0;
@@ -5067,47 +5067,47 @@ ecosystem
             animation: ripple infinite 5s ease-out;
 }
 
-.animation-disabled #ecosystem .ripples > span > span {
+.animation-disabled #integrations .ripples > span > span {
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
 }
 
-#ecosystem .ripples > span:nth-child(1) > span:nth-child(2) {
+#integrations .ripples > span:nth-child(1) > span:nth-child(2) {
     -webkit-animation-delay: .5s;
             animation-delay: .5s;
 }
 
-#ecosystem .ripples > span:nth-child(1) > span:nth-child(3) {
+#integrations .ripples > span:nth-child(1) > span:nth-child(3) {
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
 }
 
-#ecosystem .ripples > span:nth-child(2) > span:nth-child(1) {
+#integrations .ripples > span:nth-child(2) > span:nth-child(1) {
     -webkit-animation-delay: 1.75s;
             animation-delay: 1.75s;
 }
 
-#ecosystem .ripples > span:nth-child(2) > span:nth-child(2) {
+#integrations .ripples > span:nth-child(2) > span:nth-child(2) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
 }
 
-#ecosystem .ripples > span:nth-child(2) > span:nth-child(3) {
+#integrations .ripples > span:nth-child(2) > span:nth-child(3) {
     -webkit-animation-delay: 2.25s;
             animation-delay: 2.25s;
 }
 
-#ecosystem .ripples > span:nth-child(3) > span:nth-child(1) {
+#integrations .ripples > span:nth-child(3) > span:nth-child(1) {
     -webkit-animation-delay: 1.60s;
             animation-delay: 1.60s;
 }
 
-#ecosystem .ripples > span:nth-child(3) > span:nth-child(2) {
+#integrations .ripples > span:nth-child(3) > span:nth-child(2) {
     -webkit-animation-delay: 1.80s;
             animation-delay: 1.80s;
 }
 
-#ecosystem .ripples > span:nth-child(3) > span:nth-child(3) {
+#integrations .ripples > span:nth-child(3) > span:nth-child(3) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
 }
@@ -5143,106 +5143,106 @@ ecosystem
 /* Desktop */
 
 @media screen and (min-width: 768px) {
-    #ecosystem .container {
+    #integrations .container {
         padding-top: 106px;
         padding-bottom: 164px;
         margin: 0 auto;
     }
 
-    #ecosystem h2 {
+    #integrations h2 {
         font-size: 34px;
         letter-spacing: 10px;
     }
 
-    #ecosystem .boxes {
+    #integrations .boxes {
         max-width: 794px;
         width: 100%;
         height: 515px;
         margin: 82px auto 70px auto;
     }
 
-    #ecosystem .box {
+    #integrations .box {
         position: absolute;
         width: 225px;
         height: 225px;
         background-color:#2f4ffd;
     }
 
-    #ecosystem .box .number:after {
+    #integrations .box .number:after {
         width: 192px;
     }
 
-    #ecosystem .box .number {
+    #integrations .box .number {
         font-size: 34px;
         letter-spacing: 6px;
     }
 
-    #ecosystem .box .description {
+    #integrations .box .description {
         font-size: 18px;
         line-height: 26px;
     }
 
-    #ecosystem .box .number > span,
-    #ecosystem .box .description > span {
+    #integrations .box .number > span,
+    #integrations .box .description > span {
         padding: 0 20px;
     }
 
-    #ecosystem .box:nth-child(1) {
+    #integrations .box:nth-child(1) {
         left: 0;
     }
 
-    #ecosystem .box:nth-child(2) {
+    #integrations .box:nth-child(2) {
         left: 50%;
         margin-left: -112px;
     }
 
-    #ecosystem .box:nth-child(3) {
+    #integrations .box:nth-child(3) {
         right: 0;
     }
 
-    #ecosystem .box:nth-child(4) {
+    #integrations .box:nth-child(4) {
         top: 289px;
     }
 
-    #ecosystem .box:nth-child(5) {
+    #integrations .box:nth-child(5) {
         top: 289px;
         left: 50%;
         margin-left: -112px;
     }
 
-    #ecosystem .box:nth-child(6) {
+    #integrations .box:nth-child(6) {
         top: 289px;
         right: 0;
     }
 
-    #ecosystem .logo {
+    #integrations .logo {
         left: 50%;
         top: 50%;
         margin-left: -53px;
         margin-top: -53px;
     }
 
-    #ecosystem .ripples > span:nth-child(1) {
+    #integrations .ripples > span:nth-child(1) {
          top: -100px;
          left: 5%;
     }
 
-    #ecosystem .ripples > span:nth-child(2) {
+    #integrations .ripples > span:nth-child(2) {
          top: 32%;
          left: 68%;
     }
 
-    #ecosystem .ripples > span:nth-child(3) {
+    #integrations .ripples > span:nth-child(3) {
          top: 70%;
          left: 20%;
     }
 
-    #ecosystem .copy {
+    #integrations .copy {
         max-width: 480px;
         margin: 0 auto;
     }
 
-    #ecosystem .copy p {
+    #integrations .copy p {
         font-size:18px;
         margin-bottom: 20px;
         line-height: 29px;
@@ -5252,39 +5252,39 @@ ecosystem
 /* Mobile */
 
 @media screen and (max-width: 767px) {
-    #ecosystem .container {
+    #integrations .container {
         padding-top: 80px;
     }
 
-    #ecosystem .ripples > span:nth-child(1) {
+    #integrations .ripples > span:nth-child(1) {
          top: -100px;
          left: 5%;
     }
 
-    #ecosystem .ripples > span:nth-child(2) {
+    #integrations .ripples > span:nth-child(2) {
          top: 32%;
          left: 68%;
     }
 
-    #ecosystem .ripples > span:nth-child(3) {
+    #integrations .ripples > span:nth-child(3) {
          top: 70%;
          left: 20%;
     }
 
-    #ecosystem .boxes:after {
+    #integrations .boxes:after {
         content: "";
         display: table;
         clear: both;
     }
 
-    #ecosystem .boxes {
+    #integrations .boxes {
         position: relative;
         padding: 19px;
         max-width: 373px;
         margin: 53px auto 85px auto;
     }
 
-    #ecosystem .box {
+    #integrations .box {
         float: left;
         position: relative;
         width: 48%;
@@ -5293,48 +5293,48 @@ ecosystem
         margin-bottom: 3.4%;
     }
 
-    #ecosystem .box .description {
+    #integrations .box .description {
         font-size: 16px;
         line-height: 22px;
     }
 
-    #ecosystem .logo {
+    #integrations .logo {
         bottom: -56px;
         left: 50%;
         margin-left: -53px;
     }
 
-    #ecosystem .box:nth-child(odd) {
+    #integrations .box:nth-child(odd) {
         margin-left: 0;
     }
 
-    #ecosystem h2 {
+    #integrations h2 {
         font-size: 23px;
         letter-spacing: 7px;
     }
 
-    #ecosystem .box .number {
+    #integrations .box .number {
         font-size: 23px;
         letter-spacing: 5px;
     }
 
-    #ecosystem .box .number:after {
+    #integrations .box .number:after {
         width: 139px;
     }
 
-    #ecosystem .copy {
+    #integrations .copy {
         max-width: 305px;
         margin: 0 auto 60px auto;
     }
 
-    #ecosystem .copy p {
+    #integrations .copy p {
         font-size: 16px;
         line-height: 25px;
         margin-bottom: 19px;
     }
 
-    #ecosystem .box .number > span,
-    #ecosystem .box .description > span {
+    #integrations .box .number > span,
+    #integrations .box .description > span {
         padding: 0 10px;
     }
 }
