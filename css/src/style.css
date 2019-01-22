@@ -997,6 +997,14 @@ main > .block-animation span:nth-child(20) {
 
 /* All Resolutions */
 
+.hide {
+    display: none;
+}
+
+.eth-transferred-wrapper {
+    font-size: 18px !important;
+}
+
 /* Desktop */
 
 @media screen and (min-width: 1024px) {

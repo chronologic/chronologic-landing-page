@@ -629,4 +629,16 @@ jQuery(document).ready(function($){
 
 	$window.on('load resize', footerHeight());
 
+	/* --------------------------------------------------
+  Initializes the counter for the total amount of transferred ETH
+	-------------------------------------------------- */
+	console.log('getting counter');
+	EacCounter.getTotalTransferred().then(function (value) {
+		console.log(value);
+		$('.eth-transferred-counter').each(function () {
+			$(this).html(String(Math.round(value.eth)));
+			$(this).parent().removeClass('hide');
+		});
+	});
+
 });
