@@ -1002,6 +1002,10 @@ main > .block-animation span:nth-child(20) {
 }
 
 .eth-transferred-wrapper {
+    font-size: 12px;
+}
+
+.eth-transferred-dial {
     font-size: 18px !important;
 }
 

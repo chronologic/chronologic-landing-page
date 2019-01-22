@@ -441,85 +441,85 @@ jQuery(document).ready(function($){
 		distance = countDownDate - now,
 		timerValue = distance / 1000;
 
-	$('.video-unmasked .countdown').ClassyCountdown({
-	    end: $.now() + timerValue,
-	    labels: true,
-	    style: {
-	        element: "",
-	        textResponsive: .5,
-	        days: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#e2e1e1",
-	                fgColor: "#2f4ffd"
-	            }
-	        },
-	        hours: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#e2e1e1",
-	                fgColor: "#2f4ffd"
-	            }
-	        },
-	        minutes: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#e2e1e1",
-	                fgColor: "#2f4ffd"
-	            }
-	        },
-	        seconds: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#e2e1e1",
-	                fgColor: "#2f4ffd"
-	            }
-	        }
+	// $('.video-unmasked .countdown').ClassyCountdown({
+	//     end: $.now() + timerValue,
+	//     labels: true,
+	//     style: {
+	//         element: "",
+	//         textResponsive: .5,
+	//         days: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#e2e1e1",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         },
+	//         hours: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#e2e1e1",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         },
+	//         minutes: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#e2e1e1",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         },
+	//         seconds: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#e2e1e1",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         }
 
-	    },
-	    onEndCallback: function() {
+	//     },
+	//     onEndCallback: function() {
 
-		}
-	});
+	// 	}
+	// });
 
-	$('.mobile-menu-countdown').ClassyCountdown({
-	    end: $.now() + timerValue,
-	    labels: true,
-	    style: {
-	        element: "",
-	        textResponsive: .5,
-	        days: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#ffffff",
-	                fgColor: "#2f4ffd"
-	            }
-	        },
-	        hours: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#ffffff",
-	                fgColor: "#2f4ffd"
-	            }
-	        },
-	        minutes: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#ffffff",
-	                fgColor: "#2f4ffd"
-	            }
-	        },
-	        seconds: {
-	            gauge: {
-	                thickness: .03,
-	                bgColor: "#ffffff",
-	                fgColor: "#2f4ffd"
-	            }
-	        }
+	// $('.mobile-menu-countdown').ClassyCountdown({
+	//     end: $.now() + timerValue,
+	//     labels: true,
+	//     style: {
+	//         element: "",
+	//         textResponsive: .5,
+	//         days: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#ffffff",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         },
+	//         hours: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#ffffff",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         },
+	//         minutes: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#ffffff",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         },
+	//         seconds: {
+	//             gauge: {
+	//                 thickness: .03,
+	//                 bgColor: "#ffffff",
+	//                 fgColor: "#2f4ffd"
+	//             }
+	//         }
 
-	    },
-	    onEndCallback: function(){}
-	});
+	//     },
+	//     onEndCallback: function(){}
+	// });
 
 	/*-------------------------------------
 	Timemints Counter
@@ -632,12 +632,24 @@ jQuery(document).ready(function($){
 	/* --------------------------------------------------
   Initializes the counter for the total amount of transferred ETH
 	-------------------------------------------------- */
-	console.log('getting counter');
-	EacCounter.getTotalTransferred().then(function (value) {
-		console.log(value);
+	const eacCounter = new EacCounter();
+	eacCounter.getTotalTransferred().then(function (value) {
+		const ethTransferred = Math.round(value.eth);
+
 		$('.eth-transferred-counter').each(function () {
-			$(this).html(String(Math.round(value.eth)));
-			$(this).parent().removeClass('hide');
+			$(this).html(ethTransferred);
+			$('.eth-transferred-wrapper').removeClass('hide');
+
+			$(".eth-transferred-dial").knob({
+				min: 0,
+				max: ethTransferred * 1.1,
+				width: 100,
+				height: 100,
+				fgColor: '#2F4FFD',
+				thickness: 0.05
+			});
+
+			$(".eth-transferred-dial").val(ethTransferred).trigger('change')
 		});
 	});
 
