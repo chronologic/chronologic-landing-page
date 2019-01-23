@@ -1003,6 +1003,7 @@ main > .block-animation span:nth-child(20) {
 
 .eth-transferred-wrapper {
     font-size: 12px;
+    text-align: center;
 }
 
 .eth-transferred-dial {
@@ -6660,4 +6661,19 @@ Placeholder
 
 @media screen and (max-width: 767px) {
 
+}
+
+.image-eac {
+  max-height: 95px;
+  max-width: 240px;
+}
+
+.image-mycrypto {
+  max-height: 60px;
+  max-width: 240px;
+}
+
+.image-rsk {
+  max-height: 60px;
+  max-width: 240px;
 }
