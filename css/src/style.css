@@ -998,7 +998,9 @@ main > .block-animation span:nth-child(20) {
 /* All Resolutions */
 
 .hide {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .eth-transferred-wrapper {
