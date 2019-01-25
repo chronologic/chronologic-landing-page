@@ -642,14 +642,24 @@ jQuery(document).ready(function($){
 
 			$(".eth-transferred-dial").knob({
 				min: 0,
-				max: ethTransferred * 1.1,
-				width: 100,
-				height: 100,
+				max: ethTransferred,
+				width: 80,
+				height: 80,
 				fgColor: '#2F4FFD',
-				thickness: 0.05
+				thickness: 0.03
 			});
 
-			$(".eth-transferred-dial").val(ethTransferred).trigger('change')
+			var i = 0;
+			const step = 10;
+
+			const timerInterval = setInterval(function () {
+				if (i <= ethTransferred) {
+					$(".eth-transferred-dial").val(i).trigger('change');
+					i = i + (ethTransferred - i < step ? 1 : step);
+					return;
+				}
+				clearInterval(timerInterval);
+			}, 10);
 		});
 	});
 
