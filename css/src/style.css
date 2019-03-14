@@ -6672,10 +6672,15 @@ Placeholder
 
 .image-mycrypto {
   max-height: 60px;
-  max-width: 240px;
+  max-width: 185px;
 }
 
 .image-rsk {
   max-height: 60px;
-  max-width: 240px;
+  max-width: 185px;
+}
+
+.image-mew {
+  max-height: 60px;
+  max-width: 185px;
 }
